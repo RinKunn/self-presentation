@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-dark-pro.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
   </head>
@@ -10,43 +10,76 @@
   <body>
     <header class="page-header">
       <div class="container">
-        girfanov93@gmail.com
+        <a class="header-email" href='mailto:firfanov03@gmail.com'>girfanov93@gmail.com</a>
       </div>
     </header>
 
-    <section class="hero-image">
-      <h1 class="heading">Гирфанов Ринат</h1>
-      <p>Junior-верстальщик</p>
-    </section>
+    
+      <section class="hero-image">
+        <div class="container">
+          <h1 class="heading">Гирфанов Ринат</h1>
+          <p>.NET developer<br>Junior-верстальщик</p>
+        </div>
+      </section>
 
-    <section class="intro">
-      <h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Пара слов о себе</h3>
-      <p>
-        Более 2-х лет разрабатывал desktop-приложения под Windows на фреймворке .NET на языке C#. Около полугода имеется опыт разработки серверных API приложений на ASP.NET Core API. Есть опыт в написании тороговых роботов (не HFT).
-      </p>
-      <p>
-        Учусь frontend'у, в частности изучаю HTML5, CSS3, JavaScript.
-        Дополнительно изучаю Machine Learning. Я уверен, что за ним - будущее.
-      </p>
-      <p>
-        Готов обменять сон на многочасовой дизайн UI - уж очень люблю подбирать визуальное оформление. Также стараюсь использовать креатив в своих проектах, но в меру, не нарушая стилистику.
-      </p>
-      
-      <h3>Чем могу быть полезен</h3>
-      <p>Разработать асинхронное отзывчивое desktop-приложение на Windows с плоским дизайном </p>
-    </section>
+      <section class="intro">
+        <div class="container">
 
-    <section class="portfolio">
-      <h2 class="subheading">Мои работы</h2>
+          <h2 class="subheading">Давайте познакомимся</h2>
+          <figure class="user-image">
+            <img src="files/user.jpg" width="928" height="708" alt="Фотография">
+          </figure>
 
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
+          <div>
+            <h3>Пара слов о себе</h3>
+            <p>Меня зовут Ринат, 28 лет. Я закончил мехмат МГУ, более 4 лет проработал в банковской сфере в департаменте финансовых рынков: был трейдером и разработчиком.</p>
 
-    </section>
+            <p>Более 2-х лет разрабатывал desktop-приложения и сервисы на ASP.NET Core API. Имеется опыт в написании торговых роботов. Изучаю веб-разработку (HTML, CSS, JS) и Machine Learning, чтобы стать полноценный бэк-эндером. 
+              Люблю приносить пользу поиском и реализацией эффективных и креативых решений. А также же готов обменять сон на многочасовой дизайн UI - уж очень люблю подбирать визуальное оформление.</p>
+          </div>
+          
+          <div>
+            <h3>Чем могу быть полезен</h3>
+            <ul>
+              <li>Разработка desktop-приложений на Windows</li>
+              <li>Разработка сервисов на ASP.NET Core</li>
+              <li>Конструрование торговых роботов на финансовых рынках</li>
+              <li>Написание python-скриптов</li>
+              <li>Верстка простых макетов</li>
+            </ul>
+          </div>
+          
+          <div class="skills">
+            <h3>Мои навыки и опыт</h3>
+            <dl class="skills-list">
+              <dt class="skill-csharp">C# - 2 года</dt>
+              <dd class="level"><div style="width: 80%;">80%</div></dd>
+              <dt class="skill-html">HTML - 1 месяц</dt>
+              <dd class="level" ><div style="width: 20%;">20%</div></dd>
+              <dt class="skill-css">CSS - 1 месяц</dt>
+              <dd class="level"><div style="width: 10%;">10%</div></dd>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- <section class="portfolio">
+        <h2 class="subheading">Мои работы</h2>
+        <figure class="project-image">
+          <a href="source/project/index.html">
+            <img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+          </a>
+        </figure>
+        <h3>Магазин товаров для дома</h3>
+        <p>Мой первый сайт, который верстал.</p>
+      </section> -->
+    </div>
 
     <footer class="page-footer">
-      girfanov93@gmail.com
+      <div class="container">
+        <a class="footer-email" href='mailto:firfanov03@gmail.com'>girfanov93@gmail.com</a>
+    </div>
     </footer>
   </body>
 </html>
